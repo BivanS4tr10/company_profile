@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hawk Car Rental - PROFILE</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            background-color: #4CAF50;
+            color: white;
+            padding: 10px 20px;
+            text-align: center;
+        }
+        nav a {
+            margin: 0 15px;
+            color: white;
+            text-decoration: none;
+        }
+        main {
+            padding: 20px;
+            max-width: 800px;
+            margin: auto;
+        }
+        h2 {
+            color: #4CAF50;
+        }
+        footer {
+            text-align: center;
+            padding: 20px;
+            background-color: #f1f1f1;
+            margin-top: 20px;
+        }
+        .profile-img {
+            display: flex;
+            justify-content: center;
+            margin: 20px 0;
+        }
+        .profile-img img {
+            border-radius: 10px;
+            width: 80%; /* Mengatur lebar gambar */
+            max-width: 500px; /* Ukuran maksimum gambar */
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Hawk Car Rental</h1>
+        <nav>
+            <a href="index.html">Masuk ke Penyewaan</a> <!-- Mengarah ke halaman penyewaan -->
+        </nav>
+    </header>
+
+    <main id="main-content">
+        <div class="profile-img">
+            <img src="hawk.png" alt="Logo Hawk Car Rental">
+        </div>
+        <h2>Tentang Kami</h2>
+        <p>Hawk Car Rental adalah perusahaan penyewaan mobil yang didirikan untuk memenuhi kebutuhan transportasi pelanggan dengan pelayanan yang berkualitas. Kami menyediakan berbagai pilihan kendaraan yang sesuai dengan berbagai kebutuhan, mulai dari mobil ekonomis hingga mobil premium.</p>
+
+        <h2>Visi</h2>
+        <p>Menjadi penyedia layanan penyewaan mobil terdepan di Indonesia dengan fokus pada kepuasan pelanggan.</p>
+
+        <h2>Misi</h2>
+        <ul>
+            <li>Memberikan layanan penyewaan mobil yang aman dan nyaman.</li>
+            <li>Menawarkan armada mobil terbaru dan terawat dengan baik.</li>
+            <li>Memberikan pengalaman pelanggan yang menyenangkan dan tidak terlupakan.</li>
+            <li>Menawarkan harga yang bersaing dan transparan.</li>
+        </ul>
+
+        <h2>Layanan Kami</h2>
+        <p>Kami menyediakan layanan penyewaan mobil harian, mingguan, dan bulanan. Pelanggan juga dapat menikmati berbagai layanan tambahan, seperti:</p>
+        <ul>
+            <li>Penyewaan GPS</li>
+            <li>Layanan pengemudi</li>
+            <li>Asuransi perlindungan</li>
+        </ul>
+
+        <h2>Kontak Kami</h2>
+        <p>Untuk informasi lebih lanjut, silakan hubungi kami di:</p>
+        <p><strong>Telepon:</strong> 0812-3456-7890</p>
+        <p><strong>Email:</strong> hawkrental@gmail.com</p>
+    </main>
+
+    <footer>
+        <h2>Terima Kasih</h2>
+        <p>Telusuri layanan kami untuk menemukan kendaraan yang tepat untuk Anda!</p>
+    </footer>
+</body>
+</html>
